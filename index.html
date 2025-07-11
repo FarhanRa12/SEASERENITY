@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SeaSerenity</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo">SeaSerenity</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu Kami</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- hero section  -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>SeaSerenity</h1>
+        <p>
+          Telusuri keajaiban laut dan rasakan pengalaman kuliner yang memukau
+        </p>
+        <a href="#" class="cta">Jelajahi Sekarang</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- menu section  -->
+    <section id="menu" class="menu">
+      <h2>Menu Kami</h2>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/food1.jpg" alt="Menu 1" />
+          <h3>Grilled Salmon</h3>
+          <p>
+            Salmon panggang dengan bumbu spesial, disajikan dengan sayuran
+            segar.
+          </p>
+          <span class="price">$25</span>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/food2.jpg" alt="Menu 2" />
+          <h3>Grilled Chicken Satay</h3>
+          <p>Sate ayam panggang dengan saus kacang dan acar segar.</p>
+          <span class="price">$30</span>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/food3.jpg" alt="Menu 3" />
+          <h3>Grilled Salmon Fillet</h3>
+          <p>Fillet salmon panggang, disajikan dengan salad dan lemon.</p>
+          <span class="price">$20</span>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/food4.jpg" alt="Menu 4" />
+          <h3>Spicy Crab with Rice</h3>
+          <p>Kepiting pedas dengan nasi hangat dan rempah pilihan.</p>
+          <span class="price">$15</span>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- about section -->
+    <section id="about" class="about">
+      <h2>Tentang Kami</h2>
+      <div class="row">
+        <div class="about-card">
+          <img src="img/food.jpg" alt="Makanan Laut" />
+          <h3>Makanan Laut</h3>
+          <p>
+            Nikmati berbagai pilihan makanan laut segar dan hidangan khas yang
+            menggugah selera.
+          </p>
+        </div>
+        <div class="about-card">
+          <img src="img/souvenir.jpg" alt="Souvenir" />
+          <h3>Souvenir</h3>
+          <p>
+            Temukan souvenir unik bertema laut sebagai kenang-kenangan dari
+            SeaSerenity.
+          </p>
+        </div>
+        <div class="about-card">
+          <img src="img/boot.jpg" alt="Penyewaan Kapal" />
+          <h3>Penyewaan Speedboat</h3>
+          <p>
+            Rasakan serunya berpetualang di laut dengan layanan penyewaan
+            speedboat kami.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- contack section -->
+    <section id="contact" class="contact">
+      <h2>Kontak Kami</h2>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126917.51923262534!2d107.924047!3d-3.110741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e16cde515045e7b%3A0x1cd19d9566e50c25!2sSimpang%20Pesak%2C%20Kabupaten%20Belitung%20Timur%2C%20Kepulauan%20Bangka%20Belitung!5e0!3m2!1sid!2sid!4v1710000000000!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No HP" />
+          </div>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+    <!-- contack section end -->
+
+    <!-- footer -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <p>&copy; 2025 SeaSerenity. All rights reserved.</p>
+    </footer>
+    <!-- footer end -->
+
+    <!-- Feather Icons Script -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
